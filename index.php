@@ -53,5 +53,29 @@
     $var1 = 90;
     echo "$var + $var1"; //покажет значения
     echo '$var + $var1'; //покажет переменные*/
+    //возведение в степень
+/*    $a =2;
+    $b =3;
+    echo $a ** $b;*/
+    // оператор ИЛИ - || либо or
+    // оператор И - && либо and
 
+    //КОнстанта
+   // define('NAME_STUDENT', 'Max');
+    //echo NAME_STUDENT."<br>";
+   // echo "Hello".NAME_STUDENT;
+    //echo __FILE__;
+    //echo __LINE__;
+    echo PHP_VERSION;
+    //Отладочные функции
+    $arr = ["orange", "red", "white"];
+    echo "<pre>";
+    print_r($arr); //значение выводит
+    echo "</pre>";
+    echo "<pre>";
+    var_dump($arr); //выводит и значение и тип и кол-во символов
+    echo "</pre>";
+    $n =6;
+    $n+= 1; //прибавляем к n + 1;
+    echo $n;
 ?>
